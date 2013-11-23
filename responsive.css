@@ -1,0 +1,92 @@
+/* Default Layout: 1260px.  */
+
+
+
+
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .rotk-left-image img{
+         margin-top:20px;
+    }
+
+    .rotk-dashedline img{
+         left: 54px;
+         top:-11px;
+    }
+
+    .navbar-default .navbar-nav > li > a {
+         font-size: 13px;
+         padding-left: 13px;
+    }
+}
+
+
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {
+    .rotk-send-mail h4 {
+         font-size: 14px;
+         margin-bottom: 63px;
+    }
+
+    .rotk-send-mail h4 span {
+         margin-left: 73px;
+    }
+
+    .rotk-dashedline img {
+         height: 230px;
+         left: -10px;
+         width: 237px;
+    }
+
+    .rotk-form-custom{
+
+         margin-left:56px;
+    }
+
+    .rotk-left-image img{
+         margin-top:4px;
+    } 
+
+    .rotk-btn-lg {
+         font-size: 8px;
+         margin-right: 44px;
+         margin-top: 5px;
+         width: 53%;
+    }
+
+    .btn-lg  span{
+         font-size: 12px;
+    }
+}
+
+
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.rotk-send-mail h4 {
+      margin-bottom: 85px;
+}
+
+.rotk-dashedline img {
+      height: 230px;
+      left: 80px;
+}
+
+.rotk-form-custom {
+      margin-left: 145px;
+}
+
+.btn-lg {
+      margin-right: 142px;
+      width: 37%;
+      padding: 0px 0px;
+}
+
+
+
+}
